@@ -27,7 +27,7 @@ if (process.env.STATE==='production'){
     App.get('/',(req,res)=>{
         res.send('server running...')
     })
-}
+};
 
 
 export default App;
